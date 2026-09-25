@@ -11,6 +11,7 @@ I build small tools and occasionally send patches upstream.
 | [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | [#3986](https://github.com/k2-fsa/sherpa-onnx/pull/3986) — Dolphin attention decoder + language/region selection | open |
 | [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | [#3984](https://github.com/k2-fsa/sherpa-onnx/pull/3984) — Qwen3 forced aligner with word-level timestamps | open |
 | [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | [#3985](https://github.com/k2-fsa/sherpa-onnx/pull/3985) — CUDA provider options passthrough | open |
+| [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2062](https://github.com/leejet/stable-diffusion.cpp/pull/2062) — Wan2.2 VACE + GGUF >4-dim tensor fixes | open |
 
 #### Things I've built
 
