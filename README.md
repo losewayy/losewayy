@@ -7,7 +7,7 @@ I build small tools and occasionally send patches upstream.
 | Project | PR |
 |---|---|
 | [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2047](https://github.com/leejet/stable-diffusion.cpp/pull/2047) — PixArt-α/Σ model family support |
-| [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2062](https://github.com/leejet/stable-diffusion.cpp/pull/2062) — Wan2.2 VACE support (GGUF loading of 5-dim tensors + array metadata parsing) |
+| [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2062](https://github.com/leejet/stable-diffusion.cpp/pull/2062) — unblock Wan2.2 VACE GGUFs: fix 5-dim tensor loading + array metadata parsing |
 | [exllamav3](https://github.com/turboderp-org/exllamav3) | [#406](https://github.com/turboderp-org/exllamav3/pull/406) — large-page memory for CPU MoE on Windows |
 
 #### Open
