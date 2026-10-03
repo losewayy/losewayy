@@ -1,6 +1,6 @@
 ### Hi, I'm losewayy
 
-I build small tools and occasionally send patches upstream.
+I build small tools and occasionally send patches upstream. Fascinated by all things AI.
 
 #### Merged upstream
 
