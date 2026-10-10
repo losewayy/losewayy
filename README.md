@@ -7,7 +7,7 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 | Project | PR |
 |---|---|
 | [flashinfer](https://github.com/flashinfer-ai/flashinfer) | [#5914](https://github.com/flashinfer-ai/flashinfer/pull/5914) — SM120 DeepSeek-V4 NVFP4 sparse-MLA decode; my runtime page-size work from [#5763](https://github.com/flashinfer-ai/flashinfer/pull/5763) incorporated as the baseline (co-authored in main) |
-| [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2047](https://github.com/leejet/stable-diffusion.cpp/pull/2047) — PixArt-α/Σ model family support<br>[#2062](https://github.com/leejet/stable-diffusion.cpp/pull/2062) — unblock Wan2.2 VACE GGUFs: fix 5-dim tensor loading + array metadata parsing<br>[#2074](https://github.com/leejet/stable-diffusion.cpp/pull/2074) — fix f16 overflow in Z-Image quantized matmuls on CUDA<br>[#2103](https://github.com/leejet/stable-diffusion.cpp/pull/2103) — keep MiniMax-H3 VAE weights resident across temporal chunks |
+| [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2047](https://github.com/leejet/stable-diffusion.cpp/pull/2047) — PixArt-α/Σ model family support<br>[#2062](https://github.com/leejet/stable-diffusion.cpp/pull/2062) — unblock Wan2.2 VACE GGUFs: fix 5-dim tensor loading + array metadata parsing<br>[#2074](https://github.com/leejet/stable-diffusion.cpp/pull/2074) — fix f16 overflow in Z-Image quantized matmuls on CUDA<br>[#2103](https://github.com/leejet/stable-diffusion.cpp/pull/2103) — keep MiniMax-H3 VAE weights resident across temporal chunks<br>[#2120](https://github.com/leejet/stable-diffusion.cpp/pull/2120) — halve VAE decode tiles on OOM retry instead of jumping to 256px |
 | [exllamav3](https://github.com/turboderp-org/exllamav3) | [#406](https://github.com/turboderp-org/exllamav3/pull/406) — large-page memory for CPU MoE on Windows |
 | [ncnn](https://github.com/Tencent/ncnn) | [#7027](https://github.com/Tencent/ncnn/pull/7027) — Vulkan implementation of the Tile operator |
 | [auto-round](https://github.com/intel/auto-round) | [#2456](https://github.com/intel/auto-round/pull/2456) — keep layers the AWQ GEMM kernel cannot serve in fp16 during AWQ export |
@@ -20,7 +20,7 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 - [onnxruntime#32892](https://github.com/microsoft/onnxruntime/pull/32892) / [#32893](https://github.com/microsoft/onnxruntime/pull/32893) — LayerNorm fusion epsilon fix; MatmulBNFusion graph-output fix
 - [onnx#8536](https://github.com/onnx/onnx/pull/8536) — MaxRoiPool reference evaluator
 - [flashinfer#6012](https://github.com/flashinfer-ai/flashinfer/pull/6012) — packed FP4 KV support in `BatchAttentionWithAttentionSinkWrapper`
-- [stable-diffusion.cpp#2119](https://github.com/leejet/stable-diffusion.cpp/pull/2119) / [#2120](https://github.com/leejet/stable-diffusion.cpp/pull/2120) — demote resident params when memory reclamation fails; halve VAE decode tiles on OOM retry
+- [stable-diffusion.cpp#2119](https://github.com/leejet/stable-diffusion.cpp/pull/2119) — demote resident params to disk residency when memory reclamation fails
 
 #### Things I've built
 
