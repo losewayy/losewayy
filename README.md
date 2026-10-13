@@ -17,15 +17,22 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 #### In review
 
 - [Mooncake#4569](https://github.com/kvcache-ai/Mooncake/pull/4569) — pin BatchDesc across completion callbacks: fix the UAF behind flaky TCP WRITE-ack CI (approved, awaiting merge)
-- [ncnn#7026](https://github.com/Tencent/ncnn/pull/7026) / [#7047](https://github.com/Tencent/ncnn/pull/7047) / [#7078](https://github.com/Tencent/ncnn/pull/7078) — skip GPU teardown at shutdown; fold+glu Vulkan ops; faster einsum contractions
 - [llama.cpp#29766](https://github.com/ggml-org/llama.cpp/pull/29766) — concurrent first-device init
+- [ncnn#7026](https://github.com/Tencent/ncnn/pull/7026) / [#7047](https://github.com/Tencent/ncnn/pull/7047) / [#7078](https://github.com/Tencent/ncnn/pull/7078) — skip GPU teardown at shutdown; fold+glu Vulkan ops; faster einsum contractions
+- [stable-diffusion.cpp#2124](https://github.com/leejet/stable-diffusion.cpp/pull/2124) — iGPU/UMA Vulkan memory accounting fix
+- [flashinfer#6139](https://github.com/flashinfer-ai/flashinfer/pull/6139) — rank-invariant CuTe-DSL MoE autotune keys
+
+<details>
+<summary>Also open</summary>
+
+- [flashinfer#6012](https://github.com/flashinfer-ai/flashinfer/pull/6012) — packed FP4 KV in BatchAttention
 - [ik_llama.cpp#2594](https://github.com/ikawrakow/ik_llama.cpp/pull/2594) — DeepSeek-V4 in-place RoPE Windows CUDA crash fix
 - [onnxruntime#32892](https://github.com/microsoft/onnxruntime/pull/32892) / [#32893](https://github.com/microsoft/onnxruntime/pull/32893) — LayerNorm fusion epsilon fix; MatmulBNFusion graph-output fix
 - [onnx#8536](https://github.com/onnx/onnx/pull/8536) / [onnxscript#3055](https://github.com/microsoft/onnxscript/pull/3055) — MaxRoiPool reference evaluator; linalg_solve_triangular converter
-- [flashinfer#6012](https://github.com/flashinfer-ai/flashinfer/pull/6012) / [#6139](https://github.com/flashinfer-ai/flashinfer/pull/6139) — packed FP4 KV in BatchAttention; rank-invariant CuTe-DSL MoE autotune keys
-- [stable-diffusion.cpp#2124](https://github.com/leejet/stable-diffusion.cpp/pull/2124) — iGPU/UMA Vulkan memory accounting fix
 - [sherpa-onnx#3984](https://github.com/k2-fsa/sherpa-onnx/pull/3984) / [#3985](https://github.com/k2-fsa/sherpa-onnx/pull/3985) / [#3986](https://github.com/k2-fsa/sherpa-onnx/pull/3986) — Qwen3-ASR word timestamps; provider config forwarding; Dolphin attention decoder
 - [sglang#41391](https://github.com/sgl-project/sglang/pull/41391) — MiniCPMV `__getattr__` chaining fix
+
+</details>
 
 #### Things I've built
 
