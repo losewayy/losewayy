@@ -8,6 +8,7 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 |---|---|
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | [#29533](https://github.com/ggml-org/llama.cpp/pull/29533) — split Vulkan matmul dispatch when it would exceed maxComputeWorkGroupCount |
 | [flashinfer](https://github.com/flashinfer-ai/flashinfer) | [#5914](https://github.com/flashinfer-ai/flashinfer/pull/5914) — SM120 DeepSeek-V4 NVFP4 sparse-MLA decode; my runtime page-size work from [#5763](https://github.com/flashinfer-ai/flashinfer/pull/5763) incorporated as the baseline (co-authored in main) |
+| [Mooncake](https://github.com/kvcache-ai/Mooncake) | [#4569](https://github.com/kvcache-ai/Mooncake/pull/4569) — pin BatchDesc across completion callbacks before freeBatchID to fix TransferEngine UAF |
 | [ktransformers](https://github.com/kvcache-ai/ktransformers) | [#2243](https://github.com/kvcache-ai/ktransformers/pull/2243) — AVX2 RAWINT4 routed-expert LoRA SFT backend (non-AMX x86 tier); swiglu_limit plumbing fix |
 | [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2047](https://github.com/leejet/stable-diffusion.cpp/pull/2047) — PixArt-α/Σ model family support<br>[#2062](https://github.com/leejet/stable-diffusion.cpp/pull/2062) — unblock Wan2.2 VACE GGUFs: fix 5-dim tensor loading + array metadata parsing<br>[#2074](https://github.com/leejet/stable-diffusion.cpp/pull/2074) — fix f16 overflow in Z-Image quantized matmuls on CUDA<br>[#2103](https://github.com/leejet/stable-diffusion.cpp/pull/2103) — keep MiniMax-H3 VAE weights resident across temporal chunks<br>[#2120](https://github.com/leejet/stable-diffusion.cpp/pull/2120) — halve VAE decode tiles on OOM retry instead of jumping to 256px<br>[#2119](https://github.com/leejet/stable-diffusion.cpp/pull/2119) — demote resident params to disk residency when memory reclamation fails |
 | [exllamav3](https://github.com/turboderp-org/exllamav3) | [#406](https://github.com/turboderp-org/exllamav3/pull/406) — large-page memory for CPU MoE on Windows |
@@ -16,7 +17,6 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 
 #### In review
 
-- [Mooncake#4569](https://github.com/kvcache-ai/Mooncake/pull/4569) — pin BatchDesc across completion callbacks: fix the UAF behind flaky TCP WRITE-ack CI (approved, awaiting merge)
 - [llama.cpp#29766](https://github.com/ggml-org/llama.cpp/pull/29766) — concurrent first-device init
 - [ncnn#7026](https://github.com/Tencent/ncnn/pull/7026) / [#7047](https://github.com/Tencent/ncnn/pull/7047) / [#7078](https://github.com/Tencent/ncnn/pull/7078) — skip GPU teardown at shutdown; fold+glu Vulkan ops; faster einsum contractions
 - [stable-diffusion.cpp#2124](https://github.com/leejet/stable-diffusion.cpp/pull/2124) — iGPU/UMA Vulkan memory accounting fix
