@@ -13,6 +13,7 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 | [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | [#2047](https://github.com/leejet/stable-diffusion.cpp/pull/2047) — PixArt-α/Σ model family support<br>[#2062](https://github.com/leejet/stable-diffusion.cpp/pull/2062) — unblock Wan2.2 VACE GGUFs: fix 5-dim tensor loading + array metadata parsing<br>[#2074](https://github.com/leejet/stable-diffusion.cpp/pull/2074) — fix f16 overflow in Z-Image quantized matmuls on CUDA<br>[#2103](https://github.com/leejet/stable-diffusion.cpp/pull/2103) — keep MiniMax-H3 VAE weights resident across temporal chunks<br>[#2120](https://github.com/leejet/stable-diffusion.cpp/pull/2120) — halve VAE decode tiles on OOM retry instead of jumping to 256px<br>[#2119](https://github.com/leejet/stable-diffusion.cpp/pull/2119) — demote resident params to disk residency when memory reclamation fails<br>[#2124](https://github.com/leejet/stable-diffusion.cpp/pull/2124) — reclaim before accepting wrapped Vulkan iGPU memory estimates |
 | [exllamav3](https://github.com/turboderp-org/exllamav3) | [#406](https://github.com/turboderp-org/exllamav3/pull/406) — large-page memory for CPU MoE on Windows<br>[#521](https://github.com/turboderp-org/exllamav3/pull/521) — fix disk cache model load on Windows (os.statvfs is POSIX-only) |
 | [ncnn](https://github.com/Tencent/ncnn) | [#7027](https://github.com/Tencent/ncnn/pull/7027) — Vulkan implementation of the Tile operator |
+| [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | [#3985](https://github.com/k2-fsa/sherpa-onnx/pull/3985) — forward provider config keys to the CUDA execution provider |
 | [auto-round](https://github.com/intel/auto-round) | [#2456](https://github.com/intel/auto-round/pull/2456) — keep layers the AWQ GEMM kernel cannot serve in fp16 during AWQ export |
 
 #### In review
@@ -27,7 +28,7 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 - [ik_llama.cpp#2594](https://github.com/ikawrakow/ik_llama.cpp/pull/2594) — DeepSeek-V4 in-place RoPE Windows CUDA crash fix
 - [onnxruntime#32892](https://github.com/microsoft/onnxruntime/pull/32892) / [#32893](https://github.com/microsoft/onnxruntime/pull/32893) — LayerNorm fusion epsilon fix; MatmulBNFusion graph-output fix
 - [onnx#8536](https://github.com/onnx/onnx/pull/8536) / [onnxscript#3055](https://github.com/microsoft/onnxscript/pull/3055) — MaxRoiPool reference evaluator; linalg_solve_triangular converter
-- [sherpa-onnx#3984](https://github.com/k2-fsa/sherpa-onnx/pull/3984) / [#3985](https://github.com/k2-fsa/sherpa-onnx/pull/3985) / [#3986](https://github.com/k2-fsa/sherpa-onnx/pull/3986) — Qwen3-ASR word timestamps; provider config forwarding; Dolphin attention decoder
+- [sherpa-onnx#3984](https://github.com/k2-fsa/sherpa-onnx/pull/3984) / [#3986](https://github.com/k2-fsa/sherpa-onnx/pull/3986) — Qwen3-ASR word timestamps; Dolphin attention decoder
 - [sglang#41391](https://github.com/sgl-project/sglang/pull/41391) — MiniCPMV `__getattr__` chaining fix
 
 </details>
