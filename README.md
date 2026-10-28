@@ -22,23 +22,6 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 - [ncnn#7026](https://github.com/Tencent/ncnn/pull/7026) — skip GPU instance teardown at Windows process shutdown
 - [Mooncake#4840](https://github.com/kvcache-ai/Mooncake/pull/4840) — distinguish CUDA pointer errors from host memory errors
 
-<details>
-<summary>Also open</summary>
-
-- [flashinfer#7115](https://github.com/flashinfer-ai/flashinfer/pull/7115) — clear masked route rows before the deterministic top-k reduction
-- [llama.cpp#30711](https://github.com/ggml-org/llama.cpp/pull/30711) / [#30712](https://github.com/ggml-org/llama.cpp/pull/30712) / [#30714](https://github.com/ggml-org/llama.cpp/pull/30714) — Metal ggml_tri select; backward pass for TRI; drop DIAG_MASK_* for TRI/FILL
-- [ncnn#7047](https://github.com/Tencent/ncnn/pull/7047) / [#7078](https://github.com/Tencent/ncnn/pull/7078) / [#7138](https://github.com/Tencent/ncnn/pull/7138) — Vulkan fold and glu; einsum contractions on the packed path; x86 SIMD softplus
-- [wasmtime#14879](https://github.com/bytecodealliance/wasmtime/pull/14879) — cranelift: fold divisibility tests by a constant into a multiply and compare
-- [iree#25090](https://github.com/iree-org/iree/pull/25090) — skip split reduction candidates with unsupported combiners
-- [ik_llama.cpp#2594](https://github.com/ikawrakow/ik_llama.cpp/pull/2594) — DSV4: fix Windows CUDA crash from in-place RoPE
-- [onnxruntime#32892](https://github.com/microsoft/onnxruntime/pull/32892) / [#32893](https://github.com/microsoft/onnxruntime/pull/32893) — LayerNorm fusion dropping a non-constant epsilon; MatmulBNFusion dropping graph outputs
-- [onnx#8536](https://github.com/onnx/onnx/pull/8536) / [onnxscript#3055](https://github.com/microsoft/onnxscript/pull/3055) — MaxRoiPool reference evaluator; linalg_solve_triangular converter
-- [sherpa-onnx#3984](https://github.com/k2-fsa/sherpa-onnx/pull/3984) / [#3986](https://github.com/k2-fsa/sherpa-onnx/pull/3986) — Qwen3-ASR word-level timestamps; Dolphin attention decoder
-- [sglang#41391](https://github.com/sgl-project/sglang/pull/41391) — MiniCPMV: preserve chaining on delegated methods
-- [hermes-agent#123623](https://github.com/NousResearch/hermes-agent/pull/123623) — quote path and regex literals to end invalid-escape warnings
-
-</details>
-
 #### Things I've built
 
 - **spawnfate** — predicts Windows process-spawn failures before they happen (argv/PATH/PATHEXT/cmd.exe simulator, MCP-ready)
