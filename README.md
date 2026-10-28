@@ -24,8 +24,8 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 
 #### Things I've built
 
-- **spawnfate** — predicts Windows process-spawn failures before they happen (argv/PATH/PATHEXT/cmd.exe simulator, MCP-ready)
-- **compose-mica** — wallpaper-aware window backdrop for Compose Desktop
-- **bililens** — browser extension that turns Bilibili videos into long-form notes
-- **flutter_liquid_glasses** — liquid glass material for Flutter
-- **uniwill-ec-charge-limit** — battery charge-limit fix for Uniwill laptops
+- **[spawnfate](https://github.com/losewayy/spawnfate)** — predicts Windows process-spawn failures before they happen (argv/PATH/PATHEXT/cmd.exe simulator, MCP-ready)
+- **[compose-mica](https://github.com/losewayy/compose-mica)** — wallpaper-aware window backdrop for Compose Desktop
+- **[bililens](https://github.com/losewayy/bililens)** — browser extension that turns Bilibili videos into long-form notes
+- **[flutter_liquid_glasses](https://github.com/losewayy/flutter_liquid_glasses)** — liquid glass material for Flutter
+- **[uniwill-ec-charge-limit](https://github.com/losewayy/uniwill-ec-charge-limit)** — battery charge-limit fix for Uniwill laptops
