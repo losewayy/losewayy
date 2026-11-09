@@ -1,6 +1,6 @@
 ### Hi, I'm losewayy
 
-I work on AI inference runtimes and kernels. Most of what I send upstream is a small, targeted change: find the exact line where an assumption breaks, fix that, and leave the rest alone.
+I build small tools and occasionally send patches upstream. Fascinated by all things AI.
 
 #### Merged upstream
 
