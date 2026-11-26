@@ -20,10 +20,6 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 | [auto-round](https://github.com/intel/auto-round) | [#2456](https://github.com/intel/auto-round/pull/2456) — skip layers the AWQ GEMM kernel cannot serve in AWQ export |
 | [ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) | [#2594](https://github.com/ikawrakow/ik_llama.cpp/pull/2594) — keep in-place ops on their backing tensor backend |
 
-#### Approved, pending merge
-
-- [ncnn#7026](https://github.com/Tencent/ncnn/pull/7026) — skip GPU instance teardown at Windows process shutdown
-
 #### Things I've built
 
 - **[spawnfate](https://github.com/losewayy/spawnfate)** — predicts Windows process-spawn failures before they happen (argv/PATH/PATHEXT/cmd.exe simulator, MCP-ready)
