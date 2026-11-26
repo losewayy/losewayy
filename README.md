@@ -18,6 +18,7 @@ I build small tools and occasionally send patches upstream. Fascinated by all th
 | [mimalloc](https://github.com/microsoft/mimalloc) | [#1432](https://github.com/microsoft/mimalloc/pull/1432) — pprof allocation failure handling and backtrace re-entrancy |
 | [exllamav3](https://github.com/turboderp-org/exllamav3) | [#406](https://github.com/turboderp-org/exllamav3/pull/406) — large-page memory for CPU MoE on Windows<br>[#521](https://github.com/turboderp-org/exllamav3/pull/521) — fix disk cache model load on Windows (os.statvfs is POSIX-only) |
 | [auto-round](https://github.com/intel/auto-round) | [#2456](https://github.com/intel/auto-round/pull/2456) — skip layers the AWQ GEMM kernel cannot serve in AWQ export |
+| [ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) | [#2594](https://github.com/ikawrakow/ik_llama.cpp/pull/2594) — keep in-place ops on their backing tensor backend |
 
 #### Approved, pending merge
 
